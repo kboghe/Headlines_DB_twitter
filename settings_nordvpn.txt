@@ -1,0 +1,1 @@
+{"opsys": "Linux", "command": ["nordvpn", "c"], "settings": ["belgium"], "additional_settings": []}
