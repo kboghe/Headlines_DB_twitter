@@ -244,7 +244,7 @@ if 'y' in firsttimer:
 ####################################
 while True:
     countdown(10)
-    #request_newvpn()
+    request_newvpn()
     latest = pd.DataFrame(db_latestnews(con))
     accounts = pd.read_csv('news_channels.csv', sep=',', quotechar='"', usecols=["account"])
     accounts.columns = [1]
